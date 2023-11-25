@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using Spellbook.Data;
+
 
 namespace Spellbook;
 
@@ -22,7 +22,7 @@ public static class MauiProgram
 		builder.Logging.AddDebug();
 #endif
 
-		builder.Services.AddSingleton<WeatherForecastService>();
+		//builder.Services.AddSingleton<WeatherForecastService>();
 
 		return builder.Build();
 	}
