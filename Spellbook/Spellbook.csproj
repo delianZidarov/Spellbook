@@ -53,10 +53,12 @@
       <None Remove="Data\" />
       <None Remove="Resources\Images\" />
       <None Remove="Resources\Splash\" />
+      <None Remove="Util\" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Data\" />
       <Folder Include="Resources\Images\" />
       <Folder Include="Resources\Splash\" />
+      <Folder Include="Util\" />
     </ItemGroup>
 </Project>
