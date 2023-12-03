@@ -1,0 +1,20 @@
+﻿.footer{
+    display:flex;
+    justify-content:center;
+    height: 100%;
+
+}
+.footer-container{
+    display:flex;
+  
+    justify-content: center;
+    gap: 10px;
+}
+.footer-container>p{
+  
+    margin: auto 0px auto 0px;
+}
+
+.footer-container > a {
+        margin: auto 0px auto 0px;
+ }

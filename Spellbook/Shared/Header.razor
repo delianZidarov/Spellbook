@@ -1,0 +1,16 @@
+﻿<div class="header">
+    <div class="logo-container">
+        <a href="/"> <img class="logo" src="/" alt="Spellbook Logo"></a>
+        <p>Spellbook</p>
+    </div>
+    @if (hasLoggedIn)
+        {
+    <div class="menu-container">
+        <button class="log-out-btn">Log Out</button>
+    </div>
+        }
+</div>
+
+@code {
+    bool hasLoggedIn = false;
+}

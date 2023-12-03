@@ -1,8 +1,23 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+@if (hasLoggedIn)
+    {
+        <Spellbook.Components.CharacterSelector/>
+    }
+    else
+    {
+        <div class="welcome-login">
+            <div>
+            <h1>Welcome!</h1>
+            <h2>Login or Sign Up Below</h2>
+            </div>
+            <Spellbook.Components.LogInSignUp/>
+        </div>
+    }
 
-Welcome to your new app.
+@code {
+ bool hasLoggedIn = false;
+}
 
 
 

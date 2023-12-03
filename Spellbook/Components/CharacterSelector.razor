@@ -1,0 +1,16 @@
+﻿<div class="character-selector-container">
+    <h1>Welcome Back @User</h1>
+    <h2> Available Characters</h2>
+    <ul>
+        @foreach (string name in Characters)
+{
+                <li><a href=@($"{User}/{name.Replace(" ", "_")}")>@name</a> <button><Spellbook.wwwroot.Icons.Trashcan/></button></li>
+}
+    </ul>
+    <a href="#"><Spellbook.wwwroot.Icons.Plus/> New Character</a>
+</div>
+@code {
+    string User = "Bob";
+    string[] Characters = {"Death Bringer", "Bunny", "Random Randomson"};
+}
+

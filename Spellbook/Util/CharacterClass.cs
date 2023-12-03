@@ -45,6 +45,7 @@ namespace Spellbook.Util
         }
         // End constructor
 
+
         //SpellSlot Manipulation
         public void Cast(int level)
         {
@@ -160,6 +161,11 @@ namespace Spellbook.Util
             {
                 Console.WriteLine("Spell Level: " + (i + 1) + " " + "Spell Slots: " + _availableSpellSlots[i]);
             }
+        }
+
+        public int GetCasterLevel()
+        {
+            return _casterLevel;
         }
 
 

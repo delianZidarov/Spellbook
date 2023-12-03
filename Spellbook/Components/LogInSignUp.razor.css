@@ -1,0 +1,37 @@
+﻿form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    padding: 5%;
+}
+
+input {
+    padding: 7px;
+    border: solid 2px black;
+    border-radius: 20px;
+   
+}
+
+.login-btn {
+    padding: 7px;
+    border-radius: 20px;
+    background-color: black;
+}
+.password-container{
+    position:relative;
+}
+.password-container>input{
+    width:100%;
+}
+.password-container>button{
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    height: 90%;
+}
+.remember-container{
+    display: flex;
+    justify-content: space-between;
+}
+

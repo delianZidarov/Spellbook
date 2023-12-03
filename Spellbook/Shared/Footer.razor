@@ -1,0 +1,22 @@
+﻿<div class="footer">
+    @if(hasLoggedIn)
+    {
+            <div class="footer-container">
+                <p>Something Missing?</p>
+                <a  class="footer-link" href="#">Tell Us!</a>
+            </div>
+    }
+     else
+    {
+<div class="footer-container">
+    <p>Don't have an account?</p>
+    <a class="footer-link" href="#"><u>Sign Up</u></a>
+</div>
+    }
+
+
+</div>
+
+@code {
+    bool hasLoggedIn = false;
+}

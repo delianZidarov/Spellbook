@@ -1,0 +1,26 @@
+﻿.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+
+    height: 100%;
+}
+.logo {
+    height: 64px;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 5px;
+
+}
+
+.logo-container>p{
+    margin: auto 0px auto 0px;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+

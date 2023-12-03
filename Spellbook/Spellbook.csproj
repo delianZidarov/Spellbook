@@ -54,11 +54,17 @@
       <None Remove="Resources\Images\" />
       <None Remove="Resources\Splash\" />
       <None Remove="Util\" />
+      <None Remove="Components\" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Data\" />
       <Folder Include="Resources\Images\" />
       <Folder Include="Resources\Splash\" />
       <Folder Include="Util\" />
+      <Folder Include="Components\" />
+      <Folder Include="wwwroot\Icons\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Remove="wwwroot\Icons\" />
     </ItemGroup>
 </Project>
